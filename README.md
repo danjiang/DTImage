@@ -1,3 +1,10 @@
+# DTImage
+
+[![Swift](https://img.shields.io/badge/Swift-3.0-ff3f26.svg?style=flat)](https://swift.org/)
+[![Platform](https://img.shields.io/cocoapods/p/DTImage.svg?style=flat)](http://cocoadocs.org/docsets/DTImage)
+[![CocoaPods](http://img.shields.io/cocoapods/v/DTImage.svg)](https://cocoapods.org/pods/DTImage)
+[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
+
 ## Introduction
 
 Simple image processing.
@@ -6,7 +13,7 @@ Simple image processing.
 
 ### Requirement
 
-iOS 8+
+iOS 8.4+
 
 ### [CocoaPods](http://cocoapods.org)
 
