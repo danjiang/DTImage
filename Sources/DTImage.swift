@@ -13,8 +13,8 @@ public extension UIImage {
   public static func dt_snapshot(view: UIView) -> UIImage? {
     var newImage: UIImage? = nil
     
-    UIGraphicsBeginImageContext(view.bounds.size)
-    
+    UIGraphicsBeginImageContextWithOptions(view.bounds.size, false, 0)
+
     if let context = UIGraphicsGetCurrentContext() {
       
       view.layer.render(in: context)
